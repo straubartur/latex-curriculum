@@ -1,0 +1,123 @@
+%!TEX TS-program = xelatex
+\documentclass{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0F638E}
+
+\begin{document}
+
+\header{Marcos}{Schead}{Full Stack Developer}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+    Admar Gonzaga
+    707, Itacorubi
+    Florianópolis, Brazil
+    ~
+  \section{Phone}
+    +55 48 98405-8808
+    ~
+  \section{Mail}
+    \href{mailto:wssmarcos@gmail.com}{wssmarcos@\\gmail.com}
+    ~
+  \section{Github}
+    \href{https://github.com/mschead}{mschead}
+    ~
+  \section{Technologies}
+  \begin{tabular}{lr}
+  \includegraphics[scale=0.3]{img/3stars.png} & Java \\ 
+  \includegraphics[scale=0.3]{img/2stars.png} & Python \\
+  \includegraphics[scale=0.3]{img/3stars.png} & ReactJS \\
+  \includegraphics[scale=0.3]{img/3stars.png} & Redux \\
+  \includegraphics[scale=0.3]{img/3stars.png} & React Native \\
+  \includegraphics[scale=0.3]{img/3stars.png} & NodeJS \\
+  \includegraphics[scale=0.3]{img/3stars.png} & Postgres \\
+  \includegraphics[scale=0.3]{img/2stars.png} & MongoDB \\
+  \includegraphics[scale=0.3]{img/4stars.png} & Git \\
+  \includegraphics[scale=0.3]{img/4stars.png} & Docker \\
+  \end{tabular}
+    ~
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {11/18 - now}
+    {Fullstack Developer and Mobile Developer}
+    {Jungsoft, Florianópolis}
+    {The Jungsoft is a company that makes project for many different companies, most of them in Germany. Here I develop solutions using Elixir in backend with Phoenix framework. In frontend React comes to shine, sometimes combined to Redux, but oftenly the GraphQL with Apollo Client solves most of our problems. In addition, when comes to App development, React Native allow us to maximize our speed without leaving quality behind.\\}
+  \entry
+    {06/18 - 10/18}
+    {React Front-end Developer}
+    {Softplan, Florianópolis}
+    {The Softplan is one of the major company in Brazil that develops software for management area. One of their units create solutions for the law area. My job is developing a software for legal reasoning. It uses Artificial Inteligence to help the judges and lawyers in their tasks. I'm using some Javascript technologies to achieve thiese goals, like React with Redux to state management. Also, we use enzyme to test out applications in a component and integration level. \\}
+  \entry
+    {03/17 - 05/18}
+    {iOS Developer}
+    {Bridge Laboratory, Florianópolis, Brasil}
+    {Due a client request, I was invited to join a team in creating the SISMOB app for the iOS plataform. The project was developed in Swift, using the ReSwift for the system architecture. It's a flux implementation adopted for iOS environment. Also, I got experience in Cocoapods dependency manager and in Coredata framework for data persistence.\\}
+  \entry
+    {11/15 - 02/17}
+    {Java Programmer Jr. in SISMOB 2.0}
+    {Bridge Laboratory, Florianópolis, Brasil}
+    {The SISMOB is the computerized system developed by the Ministry of Health to register and analyze proposals for health projects and monitor the execution of fund transfer works. I've worked as Java FullStack Programmer, developing the web version. Also, had build experience in Maven, Git/Github, Oracle DB for persistence and liquibase usage for database migration. \\}
+  \entry
+    {04/15 - 10/15}
+    {Q\&A Analist in e-SUS AB}
+    {Bridge Laboratory, Florianópolis, Brasil}
+    {I've started working in a goverment strategy named e-SUS AB. The main purpose is allow the patient to access its medical record, in any health center on national territory. My job was to identify software defects in the web version. In addition, guarantee the system is consistent, and working as expected through the use cases.}
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2010 - 2018}
+    {B.Sc. in Computer Science}
+    {Universidade Federal de Santa Catarina}
+    {Main subjects: Programming, Data Structures, Software Engineering, Database Systems, Operating Systems Architecture and Organization.\\
+    \emph{Thesis: A Web Middleware for Continuous Authentication Multi-factor }}\\
+\end{entrylist}
+
+\section{Certifications}
+\begin{entrylist}
+  \entry
+    {2017}
+    {Mini-course lecturing in Docker}
+    {UFSC, Florianópolis}
+    {Basics in container management.}
+\end{entrylist}
+\begin{entrylist}
+  \entry
+    {2017}
+    {Mini-course lecturing in Git/Github}
+    {UFSC, Florianópolis}
+    {Basics in version control system and some advanced topics.}
+\end{entrylist}
+
+\section{About Me}
+\emph{Although my degree in Computer Science is recent, I've worked three years in the Bridge Laboratory at UFSC doing some amazing stuff.
+I'm always searching different ways to improve myself and my coworkers knowledge. The Bridge Lab, for instance, has encouraged me in teaching. This helped me increasing not only my professional experience, but my personal relationships.
+My focus is always in creating the best solutions, using the right tools. And more important, never deny any technology due some misleading preconception.
+}
+\begin{flushright}
+\emph{June 25, 2018}
+\end{flushright}
+
+\end{document}
